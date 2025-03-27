@@ -1,0 +1,118 @@
+/* style.css */
+h1 {
+    font-size: 2.5em; /* Larger font size for the main heading */
+    margin-bottom: 20px;
+    color: #3a233f; /* Deep Purple color for the main heading */
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #e0bbe8; /* Lighter purple for subheadings */
+}
+
+/* Style for the ordered list */
+ol {
+    list-style-type: upper-roman; /* Use uppercase Roman numerals */
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 8px; /* Spacing between list items */
+}
+
+/* Style for the image */
+img {
+    display: block; /* Make the image a block-level element */
+    margin: 20px auto; /* Center the image */
+    max-width: 90%; /* Responsive width */
+    height: auto;
+    border: 5px solid #a374ad;; /* Light purple border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 5px 5px 10px #ccc; /* Add a subtle shadow */
+}
+
+/* Style for the iframe */
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border: none; /* Remove iframe border */
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray header background */
+    font-weight: bold;
+}
+
+/* Style for the form */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block; /* Each label on a new line */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+    background-color: #b825da; /*Purple background */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #430651; /* Darker purple on hover */
+}
+
+/* Class Selector Example */
+.form-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    background-color: #e0bbe8; /* Light purple background */
+    border-radius: 0px;
+}
+
+/* ID Selector Example */
+#form-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    margin-top: 30px;
+}
